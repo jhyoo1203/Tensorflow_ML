@@ -1,5 +1,5 @@
-# Lab 7 Learning rate and Evaluation
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 tf.set_random_seed(777)
 
 x_data = [[1, 2, 1],
